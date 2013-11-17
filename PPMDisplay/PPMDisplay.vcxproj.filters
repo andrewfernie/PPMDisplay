@@ -92,12 +92,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\CDC.cpp">
-      <Filter>_core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
-      <Filter>_core</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp">
       <Filter>_core</Filter>
     </ClCompile>

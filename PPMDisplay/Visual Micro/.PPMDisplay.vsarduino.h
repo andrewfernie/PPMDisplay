@@ -32,8 +32,9 @@ extern "C" void __cxa_pure_virtual() {;}
 //
 //
 void read_ppm();
+void reset_display();
 
 #include "C:\arduino\hardware\arduino\variants\standard\pins_arduino.h" 
 #include "C:\arduino\hardware\arduino\cores\arduino\arduino.h"
-#include "C:\Users\andrew\Documents\Arduino\PPMDisplay\PPMDisplay.ino"
+#include "C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplay\PPMDisplay.ino"
 #endif
