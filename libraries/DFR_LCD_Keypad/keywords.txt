@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map for DFR_LCD_Keypad
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFR_LCD_Keypad	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+backlight_off	KEYWORD2
+backlight_on	KEYWORD2
+read_key	KEYWORD2
+get_last_key	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ 
+KEY_RIGHT	LITERAL1
+KEY_UP	LITERAL1
+KEY_DOWN	LITERAL1
+KEY_LEFT	LITERAL1
+KEY_SELECT	LITERAL1
+KEY_NONE	LITERAL1
+SELECT_KEY	LITERAL1
+DFR_LCD_KEYPAD_BACKLIGHT_PIN	LITERAL1
+DFR_LCD_KEYPAD_KEY_PIN	LITERAL1

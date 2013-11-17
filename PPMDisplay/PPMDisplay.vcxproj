@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB530E82-44A6-45DB-AE52-F7D531438162}</ProjectGuid>
+    <RootNamespace>PPMDisplay</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\arduino\hardware\arduino\cores\arduino;C:\arduino\hardware\arduino\variants\standard;C:\arduino\libraries\LiquidCrystal;C:\arduino\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\libraries\DFR_LCD_Keypad\utility;c:\arduino\hardware\tools\avr\avr\include\;c:\arduino\hardware\tools\avr\avr\include\avr\;c:\arduino\hardware\tools\avr\avr\;c:\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="PPMDisplay.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\variants\standard\pins_arduino.h" />
+    <ClInclude Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h" />
+    <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\CDC.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp" />
+    <ClCompile Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
