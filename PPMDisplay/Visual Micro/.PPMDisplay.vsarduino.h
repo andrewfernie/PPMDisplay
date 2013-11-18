@@ -1,6 +1,6 @@
 #ifndef _VSARDUINO_H_
 #define _VSARDUINO_H_
-//Board = Arduino Duemilanove w/ ATmega328
+//Board = Arduino Nano w/ ATmega328
 #define __AVR_ATmega328P__
 #define 
 #define ARDUINO 101
@@ -34,7 +34,7 @@ extern "C" void __cxa_pure_virtual() {;}
 void read_ppm();
 void reset_display();
 
-#include "C:\arduino\hardware\arduino\variants\standard\pins_arduino.h" 
+#include "C:\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" 
 #include "C:\arduino\hardware\arduino\cores\arduino\arduino.h"
 #include "C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplay\PPMDisplay.ino"
 #endif

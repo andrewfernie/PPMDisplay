@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\arduino\hardware\arduino\cores\arduino;C:\arduino\hardware\arduino\variants\standard;C:\arduino\libraries\LiquidCrystal;C:\arduino\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\localppMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\localppMDisplay\libraries\DFR_LCD_Keypad\utility;c:\arduino\hardware\tools\avr\avr\include\;c:\arduino\hardware\tools\avr\avr\include\avr\;c:\arduino\hardware\tools\avr\avr\;c:\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\arduino\hardware\arduino\cores\arduino;C:\arduino\hardware\arduino\variants\eightanaloginputs;C:\arduino\libraries\LiquidCrystal;C:\arduino\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\LocalpPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\LocalpPMDisplay\libraries\DFR_LCD_Keypad\utility;c:\arduino\hardware\tools\avr\avr\include\;c:\arduino\hardware\tools\avr\avr\include\avr\;c:\arduino\hardware\tools\avr\avr\;c:\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -73,46 +73,50 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\variants\standard\pins_arduino.h" />
-    <ClInclude Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" />
+    <ClInclude Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h" />
+    <ClInclude Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.h" />
     <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp" />
-    <ClCompile Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\CDC.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp" />
+    <ClCompile Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

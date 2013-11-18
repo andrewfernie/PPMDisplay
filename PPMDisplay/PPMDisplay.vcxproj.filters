@@ -14,13 +14,16 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="_core">
-      <UniqueIdentifier>{94b45b9a-1032-4307-abb8-0db8030c254e}</UniqueIdentifier>
+      <UniqueIdentifier>{6d5302d2-5a2f-48f2-beff-db49b36e5803}</UniqueIdentifier>
     </Filter>
     <Filter Include="_libraries">
-      <UniqueIdentifier>{35f32a03-d643-43f4-9ee7-28ecf522bda4}</UniqueIdentifier>
+      <UniqueIdentifier>{6d1f8ede-0249-405d-a4ec-333b6ab8e64d}</UniqueIdentifier>
     </Filter>
     <Filter Include="_libraries\LiquidCrystal">
-      <UniqueIdentifier>{de256a45-87dd-4863-bd02-6d7382f0a24f}</UniqueIdentifier>
+      <UniqueIdentifier>{bc9b2548-2784-45d1-ace2-568f2effb7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\DFR_LCD_Keypad">
+      <UniqueIdentifier>{8c81d364-e666-42e6-bc4e-ead705da17bb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,118 +33,130 @@
     <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\hardware\arduino\variants\standard\pins_arduino.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h">
+    <ClInclude Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h">
       <Filter>_libraries\LiquidCrystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.h">
+      <Filter>_libraries\DFR_LCD_Keypad</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\CDC.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp">
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp">
       <Filter>_libraries\LiquidCrystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.cpp">
+      <Filter>_libraries\DFR_LCD_Keypad</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
