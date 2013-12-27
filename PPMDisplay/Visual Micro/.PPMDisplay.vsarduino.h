@@ -34,7 +34,7 @@ extern "C" void __cxa_pure_virtual() {;}
 void read_ppm();
 void reset_display();
 
-#include "C:\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" 
-#include "C:\arduino\hardware\arduino\cores\arduino\arduino.h"
-#include "C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplay\PPMDisplay.ino"
+#include "C:\Arduino-1.0.1\hardware\arduino\variants\standard\pins_arduino.h" 
+#include "C:\Arduino-1.0.1\hardware\arduino\cores\arduino\arduino.h"
+#include "C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay\PPMDisplay.ino"
 #endif

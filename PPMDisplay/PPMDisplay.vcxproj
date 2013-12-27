@@ -44,8 +44,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\arduino\hardware\arduino\cores\arduino;C:\arduino\hardware\arduino\variants\eightanaloginputs;C:\arduino\libraries\LiquidCrystal;C:\arduino\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\LocalpPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\LocalpPMDisplay\libraries\DFR_LCD_Keypad\utility;c:\arduino\hardware\tools\avr\avr\include\;c:\arduino\hardware\tools\avr\avr\include\avr\;c:\arduino\hardware\tools\avr\avr\;c:\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Arduino-1.0.1\hardware\arduino\cores\arduino;C:\Arduino-1.0.1\hardware\arduino\variants\standard;C:\Arduino-1.0.1\libraries\LiquidCrystal;C:\Arduino-1.0.1\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad\utility;c:\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.1\hardware\tools\avr\avr\;c:\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -97,7 +97,6 @@
     <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\CDC.cpp" />
     <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp" />
     <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp" />
     <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp" />
