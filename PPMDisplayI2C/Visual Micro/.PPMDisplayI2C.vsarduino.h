@@ -37,5 +37,5 @@ void reset_display();
 
 #include "c:\arduino 1.0.5\hardware\arduino\cores\arduino\arduino.h"
 #include "c:\arduino 1.0.5\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" 
-#include "C:\Users\andrew\Documents\Arduino\LocalPPMDisplay\PPMDisplayI2C\PPMDisplayI2C.ino"
+#include "C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplayI2C\PPMDisplayI2C.ino"
 #endif
