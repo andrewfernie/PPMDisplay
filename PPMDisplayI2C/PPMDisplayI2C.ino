@@ -360,14 +360,15 @@ void read_ppm()   //leave this alone
     counter = TCNT1;
     TCNT1 = 0;
 
-    if (counter < 1020) { //must be a pulse if less than 510us
+    if (counter < 1020) { //must be a leading negative pulse that adds to a PPM positive pulse if less than 510us
         pulse = counter;
     } else if (counter > 4500) { //sync pulses over 2250us
         channel = 0;
+		pulse = 0;
     } else { //servo values between 510us and 2250us will end up here
 
         if (channel < NUM_CHANNELS) {
-            ppm[channel] = (counter + pulse) / 2;
+           ppm[channel] = (counter + pulse) / 2;
         }
 
         if (channel == 0) {
