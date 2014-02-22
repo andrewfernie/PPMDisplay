@@ -14,16 +14,28 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="_core">
-      <UniqueIdentifier>{6d5302d2-5a2f-48f2-beff-db49b36e5803}</UniqueIdentifier>
+      <UniqueIdentifier>{a53a843e-0a84-4a30-a836-f6b6d11c2ac9}</UniqueIdentifier>
     </Filter>
     <Filter Include="_libraries">
-      <UniqueIdentifier>{6d1f8ede-0249-405d-a4ec-333b6ab8e64d}</UniqueIdentifier>
+      <UniqueIdentifier>{44b73ee8-9b43-46c0-8560-4042b87df609}</UniqueIdentifier>
     </Filter>
     <Filter Include="_libraries\LiquidCrystal">
-      <UniqueIdentifier>{bc9b2548-2784-45d1-ace2-568f2effb7e5}</UniqueIdentifier>
+      <UniqueIdentifier>{4de012fc-a0ee-4b3c-a8d1-45b7e4b29813}</UniqueIdentifier>
     </Filter>
     <Filter Include="_libraries\DFR_LCD_Keypad">
-      <UniqueIdentifier>{8c81d364-e666-42e6-bc4e-ead705da17bb}</UniqueIdentifier>
+      <UniqueIdentifier>{f8d2c686-4f7e-4b65-8090-76d9c7b97edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Keypad">
+      <UniqueIdentifier>{23e7d858-4768-4495-b7b9-f070a5794d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Servo">
+      <UniqueIdentifier>{5dd011ea-42d4-43e8-9545-d2a6a84b2384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire">
+      <UniqueIdentifier>{4e43323a-da33-4dee-8d43-432da2b3e869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\DigoleSerial">
+      <UniqueIdentifier>{66a05fae-ee06-40fb-a012-c6c66d31d207}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,127 +45,160 @@
     <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Arduino.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\binary.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Client.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HardwareSerial.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\IPAddress.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\new.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Platform.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Print.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Printable.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Server.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Stream.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Udp.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBAPI.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBCore.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBDesc.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WCharacter.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_private.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WString.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\variants\standard\pins_arduino.h">
       <Filter>_core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h">
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\LiquidCrystal\LiquidCrystal.h">
       <Filter>_libraries\LiquidCrystal</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.h">
       <Filter>_libraries\DFR_LCD_Keypad</Filter>
     </ClInclude>
+    <ClInclude Include="..\libraries\Keypad\Keypad.h">
+      <Filter>_libraries\Keypad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Servo\Servo.h">
+      <Filter>_libraries\Servo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Wire\Wire.h">
+      <Filter>_libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DigoleSerial\DigoleSerial.h">
+      <Filter>_libraries\DigoleSerial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DigoleSerial\sampledata.h">
+      <Filter>_libraries\DigoleSerial</Filter>
+    </ClInclude>
+    <ClInclude Include="PPMDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\CDC.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HardwareSerial.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HID.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\IPAddress.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\main.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\new.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Print.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Stream.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Tone.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBCore.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WInterrupts.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_analog.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_digital.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_pulse.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_shift.c">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WMath.cpp">
       <Filter>_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\LiquidCrystal\LiquidCrystal.cpp">
       <Filter>_libraries\LiquidCrystal</Filter>
     </ClCompile>
     <ClCompile Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.cpp">
       <Filter>_libraries\DFR_LCD_Keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Keypad\Keypad.cpp">
+      <Filter>_libraries\Keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Servo\Servo.cpp">
+      <Filter>_libraries\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Wire\Wire.cpp">
+      <Filter>_libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\DigoleSerial\DigoleSerial.cpp">
+      <Filter>_libraries\DigoleSerial</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

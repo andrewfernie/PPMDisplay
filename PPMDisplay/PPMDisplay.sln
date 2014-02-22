@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PPMDisplay", "PPMDisplay.vcxproj", "{BB530E82-44A6-45DB-AE52-F7D531438162}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PPMDisplay", "PPMDisplay.vcxproj", "{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB530E82-44A6-45DB-AE52-F7D531438162}.Debug|Win32.ActiveCfg = Debug|Win32
-		{BB530E82-44A6-45DB-AE52-F7D531438162}.Debug|Win32.Build.0 = Debug|Win32
-		{BB530E82-44A6-45DB-AE52-F7D531438162}.Release|Win32.ActiveCfg = Release|Win32
-		{BB530E82-44A6-45DB-AE52-F7D531438162}.Release|Win32.Build.0 = Release|Win32
+		{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}.Debug|Win32.Build.0 = Debug|Win32
+		{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}.Release|Win32.ActiveCfg = Release|Win32
+		{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

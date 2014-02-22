@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BB530E82-44A6-45DB-AE52-F7D531438162}</ProjectGuid>
+    <ProjectGuid>{5BF430B0-C316-4139-BCCC-FD3F4F0FBFE6}</ProjectGuid>
     <RootNamespace>PPMDisplay</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -44,10 +44,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Arduino-1.0.1\hardware\arduino\cores\arduino;C:\Arduino-1.0.1\hardware\arduino\variants\standard;C:\Arduino-1.0.1\libraries\LiquidCrystal;C:\Arduino-1.0.1\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad\utility;c:\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.1\hardware\tools\avr\avr\;c:\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Arduino-1.0.5\hardware\arduino\cores\arduino;C:\Arduino-1.0.5\hardware\arduino\variants\standard;C:\Arduino-1.0.5\libraries\LiquidCrystal;C:\Arduino-1.0.5\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad\utility;C:\Arduino-1.0.5\libraries\Servo;C:\Arduino-1.0.5\libraries\Servo\utility;C:\Arduino-1.0.5\libraries\Wire;C:\Arduino-1.0.5\libraries\Wire\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial\utility;c:\arduino-1.0.5\hardware\tools\avr\avr\include\;c:\arduino-1.0.5\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.5\hardware\tools\avr\avr\;c:\arduino-1.0.5\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;__avr__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -73,56 +73,67 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Arduino.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\binary.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Client.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Platform.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Printable.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Server.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Udp.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBAPI.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBDesc.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WCharacter.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_private.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h" />
-    <ClInclude Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Arduino.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\binary.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Client.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HardwareSerial.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\IPAddress.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\new.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Platform.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Print.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Printable.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Server.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Stream.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Udp.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBAPI.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBCore.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBDesc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WCharacter.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_private.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WString.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\variants\standard\pins_arduino.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\LiquidCrystal\LiquidCrystal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Servo\Servo.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Wire\Wire.h" />
     <ClInclude Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.h" />
+    <ClInclude Include="..\libraries\DigoleSerial\DigoleSerial.h" />
+    <ClInclude Include="..\libraries\DigoleSerial\sampledata.h" />
+    <ClInclude Include="..\libraries\Keypad\Keypad.h" />
+    <ClInclude Include="PPMDisplay.h" />
     <ClInclude Include="Visual Micro\.PPMDisplay.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\HID.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\IPAddress.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\new.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Print.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Stream.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\Tone.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\USBCore.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WInterrupts.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_analog.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_digital.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_pulse.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\wiring_shift.c" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WMath.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\hardware\arduino\cores\arduino\WString.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\arduino\libraries\LiquidCrystal\LiquidCrystal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\CDC.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HardwareSerial.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\HID.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\IPAddress.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\new.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Print.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Stream.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\Tone.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\USBCore.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WInterrupts.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_analog.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_digital.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_pulse.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\wiring_shift.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WMath.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\hardware\arduino\cores\arduino\WString.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\LiquidCrystal\LiquidCrystal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Servo\Servo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Arduino-1.0.5\libraries\Wire\Wire.cpp" />
     <ClCompile Include="..\libraries\DFR_LCD_Keypad\DFR_LCD_Keypad.cpp" />
+    <ClCompile Include="..\libraries\DigoleSerial\DigoleSerial.cpp" />
+    <ClCompile Include="..\libraries\Keypad\Keypad.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties arduino.upload.port="COM33" />
+      <UserProperties arduino.upload.port="COM16" arduino.board.name="atmega328" arduino.board.desc="Arduino Duemilanove w/ ATmega328" arduino.board.property_bag="name=Arduino Duemilanove w/ ATmega328&#xD;&#xA;upload.protocol=arduino&#xD;&#xA;upload.maximum_size=30720&#xD;&#xA;upload.speed=57600&#xD;&#xA;bootloader.low_fuses=0xFF&#xD;&#xA;bootloader.high_fuses=0xDA&#xD;&#xA;bootloader.extended_fuses=0x05&#xD;&#xA;bootloader.path=atmega&#xD;&#xA;bootloader.file=ATmegaBOOT_168_atmega328.hex&#xD;&#xA;bootloader.unlock_bits=0x3F&#xD;&#xA;bootloader.lock_bits=0x0F&#xD;&#xA;build.mcu=atmega328p&#xD;&#xA;build.f_cpu=16000000L&#xD;&#xA;build.core=arduino&#xD;&#xA;build.variant=standard&#xD;&#xA;runtime.ide.path=C:\Arduino-1.0.5&#xD;&#xA;build.system.path=C:\Arduino-1.0.5\hardware\arduino\system&#xD;&#xA;runtime.ide.version=101&#xD;&#xA;originalid=atmega328&#xD;&#xA;vm.platform.root.path=C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x&#xD;&#xA;vm.core.include=arduino.h&#xD;&#xA;ide.hint=Arduino 0023 and 1.0.x Ide&#xD;&#xA;ide.location.key=Arduino&#xD;&#xA;ide.location.ide.winreg=Arduino 1.0.x Application&#xD;&#xA;ide.location.sketchbook.winreg=Arduino 1.0.x Sketchbook&#xD;&#xA;ide.location.sketchbook.preferences=sketchbook.path&#xD;&#xA;ide.location.sketchbook.default=%MYDOCUMENTS%\arduino&#xD;&#xA;ide.location.preferences=%VM_APPDATA_ROAMING%\arduino\preferences.txt&#xD;&#xA;ide.default.package=arduino&#xD;&#xA;ide.default.platform=avr&#xD;&#xA;ide.multiplatform=true&#xD;&#xA;ide.includes=arduino.h&#xD;&#xA;ide.platformswithoutpackage=true&#xD;&#xA;ide.includes.fallback=wprogram.h&#xD;&#xA;ide.extension=ino&#xD;&#xA;ide.extension.fallback=pde&#xD;&#xA;ide.versionLTEQ=149&#xD;&#xA;ide.exe=arduino.exe&#xD;&#xA;ide.hosts=atmel&#xD;&#xA;ide.url=http://arduino.cc/en/Main/Software&#xD;&#xA;vm.debug=true&#xD;&#xA;software=ARDUINO&#xD;&#xA;ide.appid=arduino10x&#xD;&#xA;location.sketchbook=C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay&#xD;&#xA;build.board=AVR_ATMEGA328&#xD;&#xA;vm.boardsource.path=C:\Arduino-1.0.5\hardware\arduino&#xD;&#xA;vm.platformname.name=avr&#xD;&#xA;build.arch=AVR&#xD;&#xA;" arduino.build.mcu="atmega328p" arduino.build.f_cpu="16000000L" arduino.build.core="arduino" arduino.upload.protocol="arduino" arduino.upload.speed="57600" arduino.upload.maximum_size="30720" visualmicro.application.name="arduino10x" visualmicro.package.name="arduino" visualmicro.platform.name="avr" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
