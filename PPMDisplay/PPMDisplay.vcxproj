@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -18,13 +18,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -44,10 +44,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Arduino-1.0.5\hardware\arduino\cores\arduino;C:\Arduino-1.0.5\hardware\arduino\variants\standard;C:\Arduino-1.0.5\libraries\LiquidCrystal;C:\Arduino-1.0.5\libraries\LiquidCrystal\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad\utility;C:\Arduino-1.0.5\libraries\Servo;C:\Arduino-1.0.5\libraries\Servo\utility;C:\Arduino-1.0.5\libraries\Wire;C:\Arduino-1.0.5\libraries\Wire\utility;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial;C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial\utility;c:\arduino-1.0.5\hardware\tools\avr\avr\include\;c:\arduino-1.0.5\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.5\hardware\tools\avr\avr\;c:\arduino-1.0.5\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>c:\Arduino-1.0.5\hardware\arduino\cores\arduino;c:\Arduino-1.0.5\hardware\arduino\variants\standard;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay;c:\Arduino-1.0.5\libraries\LiquidCrystal;c:\Arduino-1.0.5\libraries\LiquidCrystal\utility;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DFR_LCD_Keypad\utility;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\Keypad\utility;c:\Arduino-1.0.5\libraries\Servo;c:\Arduino-1.0.5\libraries\Servo\utility;c:\Arduino-1.0.5\libraries\Wire;c:\Arduino-1.0.5\libraries\Wire\utility;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries\DigoleSerial\utility;c:\Arduino-1.0.5\libraries;c:\Arduino-1.0.5\hardware\arduino\libraries;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers;C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\libraries;c:\arduino-1.0.5\hardware\tools\avr\avr\include\;c:\arduino-1.0.5\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.5\hardware\tools\avr\avr\;c:\arduino-1.0.5\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\Andrew\Documents\Arduino\ArduinoProjectRepositories\Local_PPMDisplay\PPMDisplay\Visual Micro\.PPMDisplay.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;ARDUINO=101;ARDUINO_MAIN;__AVR__;__avr__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;ARDUINO=105;ARDUINO_MAIN;__AVR__;__avr__;F_CPU=16000000L;__cplusplus;GCC_VERSION=40301;ARDUINO_ARCH_AVR;ARDUINO_AVR_ATMEGA328;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
