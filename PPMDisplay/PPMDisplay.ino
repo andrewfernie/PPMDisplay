@@ -61,6 +61,8 @@
 //#define TEST_KEY_ADC_VALUES			// uncomment to test your key ADC values
 
 
+#define CHAN_NUM_DISPLAY_START 1               // Set to 0 to start channel number display at 0, or 1 to start it at 1
+
 #if DISPLAY_TYPE==I2C_DISPLAY
 #include <Wire.h>
 
@@ -339,7 +341,8 @@ void loop()
 #endif
 
             LCDSetPrintPos(0, 1);
-            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay, ppm[channelDisplay], channelDisplay + 1, ppm[channelDisplay + 1]);
+            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay + CHAN_NUM_DISPLAY_START, ppm[channelDisplay], 
+				                                channelDisplay + 1 + CHAN_NUM_DISPLAY_START, ppm[channelDisplay + 1]);
             LCDPrint(lcdLine);
             break;
 
@@ -354,12 +357,14 @@ void loop()
 
 #ifndef TEST_KEY_ADC_VALUES
             LCDSetPrintPos(0, 0);
-            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay, ppm[channelDisplay], channelDisplay + 1, ppm[channelDisplay + 1]);
+            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay + CHAN_NUM_DISPLAY_START, ppm[channelDisplay], 
+				                                channelDisplay + 1 + CHAN_NUM_DISPLAY_START, ppm[channelDisplay + 1]);
             LCDPrint(lcdLine);
 #endif
 
             LCDSetPrintPos(0, 1);
-            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay + 2, ppm[channelDisplay + 2], channelDisplay + 3, ppm[channelDisplay + 3]);
+            sprintf(lcdLine, "%2d:%4d %2d:%4d", channelDisplay + 2 + CHAN_NUM_DISPLAY_START, ppm[channelDisplay + 2], 
+				                                channelDisplay + 3 + CHAN_NUM_DISPLAY_START, ppm[channelDisplay + 3]);
             LCDPrint(lcdLine);
 
             break;
